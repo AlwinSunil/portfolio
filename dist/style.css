@@ -69,24 +69,14 @@ li {
   list-style: none;
 }
 
-a {
-  -webkit-transition: all 200ms linear;
-  transition: all 200ms linear;
-}
-
 img {
   -webkit-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
 }
 
-a:hover {
+img:hover {
   -webkit-transform: scale(1.025);
           transform: scale(1.025);
-}
-
-img:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
 }
 
 .loader-wrapper {
