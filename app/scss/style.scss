@@ -80,12 +80,20 @@ li {
   list-style: none;
 }
 
+a {
+  transition: all 200ms linear;
+}
+
 img {
   transition: all 500ms ease-in-out;
 }
 
-img:hover {
+a:hover {
   transform: scale(1.025);
+}
+
+img:hover {
+  transform: scale(1.05);
 }
 
 // Preloader
