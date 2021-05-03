@@ -3,7 +3,6 @@ var firebaseConfig = {
   apiKey: "AIzaSyDxXjOKHmWQ0X8MX_9p_5vdY1iJEuAb-Os",
   authDomain: "portfolio-c0794.firebaseapp.com",
   projectId: "portfolio-c0794",
-  storageBucket: "portfolio-c0794.appspot.com",
   messagingSenderId: "678660982903",
   appId: "1:678660982903:web:f1772be5bb8e45918a1e72",
 };
