@@ -289,7 +289,7 @@ img:hover {
     box-shadow: 0 0.6px 2.7px rgba(250, 87, 87, 0.022),
       0 1.5px 6.9px rgba(250, 87, 87, 0.031), 0 3px 14.2px rgba(250, 87, 87, 0.039),
       0 3px 18px rgba(250, 87, 87, 0.25);
-    top: 90%;
+    bottom: 3%;
     right: 2%;
     border: 0px;
     display: flex;
@@ -562,11 +562,13 @@ img:hover {
   .location {
     grid-column: 1 / 2;
     margin: 0rem 0.5rem;
+    text-decoration-color: $primary-red;
+    text-decoration-thickness: 0.1rem;
   }
 
   .designation {
     box-shadow: -5px 5px 15px rgba(28, 32, 60, 0.01);
-    border: 2px solid $neutral-blackGrey;
+    border: 2px solid $neutral-whiteGrey;
     grid-column: 2 / 3;
     background-color: #222222;
     margin: 0rem 0.5rem;
@@ -577,7 +579,7 @@ img:hover {
     grid-column: 3 / 4;
     background-color: $white;
     color: $secondray-darkBlue;
-    border: 2px solid $white;
+    border: 2px solid $neutral-whiteGrey;
     margin: 0rem 0.5rem;
   }
 
@@ -948,7 +950,7 @@ img:hover {
     box-shadow: 0 0.6px 2.7px rgba(250, 87, 87, 0.022),
       0 1.5px 6.9px rgba(250, 87, 87, 0.031), 0 3px 14.2px rgba(250, 87, 87, 0.039),
       0 3px 18px rgba(250, 87, 87, 0.25);
-    top: 88%;
+    bottom: 3%;
     right: 5%;
     border: 0px;
     display: flex;
@@ -1149,6 +1151,8 @@ img:hover {
   .location {
     grid-column: 1 / span 2;
     grid-row: 1 / 2;
+    text-decoration-color: $primary-red;
+    text-decoration-thickness: 0.1rem;
   }
 
   .designation {

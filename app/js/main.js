@@ -22,7 +22,6 @@ window.onload = function () {
 
 // Nav Active
 var btns = $("#navigation .nav-item .nav-link");
-
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click",
     function () {

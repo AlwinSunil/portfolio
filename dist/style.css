@@ -323,7 +323,7 @@ img:hover {
     position: fixed;
     -webkit-box-shadow: 0 0.6px 2.7px rgba(250, 87, 87, 0.022), 0 1.5px 6.9px rgba(250, 87, 87, 0.031), 0 3px 14.2px rgba(250, 87, 87, 0.039), 0 3px 18px rgba(250, 87, 87, 0.25);
             box-shadow: 0 0.6px 2.7px rgba(250, 87, 87, 0.022), 0 1.5px 6.9px rgba(250, 87, 87, 0.031), 0 3px 14.2px rgba(250, 87, 87, 0.039), 0 3px 18px rgba(250, 87, 87, 0.25);
-    top: 90%;
+    bottom: 3%;
     right: 2%;
     border: 0px;
     display: -webkit-box;
@@ -641,11 +641,14 @@ img:hover {
     -ms-grid-column-span: 1;
     grid-column: 1 / 2;
     margin: 0rem 0.5rem;
+    -webkit-text-decoration-color: #FA5757;
+            text-decoration-color: #FA5757;
+    text-decoration-thickness: 0.1rem;
   }
   .designation {
     -webkit-box-shadow: -5px 5px 15px rgba(28, 32, 60, 0.01);
             box-shadow: -5px 5px 15px rgba(28, 32, 60, 0.01);
-    border: 2px solid #222222;
+    border: 2px solid #e5e5e5;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2 / 3;
@@ -660,7 +663,7 @@ img:hover {
     grid-column: 3 / 4;
     background-color: #FFFFFF;
     color: #252b46;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #e5e5e5;
     margin: 0rem 0.5rem;
   }
   .btn img {
@@ -1052,7 +1055,7 @@ img:hover {
     position: fixed;
     -webkit-box-shadow: 0 0.6px 2.7px rgba(250, 87, 87, 0.022), 0 1.5px 6.9px rgba(250, 87, 87, 0.031), 0 3px 14.2px rgba(250, 87, 87, 0.039), 0 3px 18px rgba(250, 87, 87, 0.25);
             box-shadow: 0 0.6px 2.7px rgba(250, 87, 87, 0.022), 0 1.5px 6.9px rgba(250, 87, 87, 0.031), 0 3px 14.2px rgba(250, 87, 87, 0.039), 0 3px 18px rgba(250, 87, 87, 0.25);
-    top: 88%;
+    bottom: 3%;
     right: 5%;
     border: 0px;
     display: -webkit-box;
@@ -1262,6 +1265,9 @@ img:hover {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     grid-row: 1 / 2;
+    -webkit-text-decoration-color: #FA5757;
+            text-decoration-color: #FA5757;
+    text-decoration-thickness: 0.1rem;
   }
   .designation {
     -webkit-box-shadow: -5px 5px 15px rgba(28, 32, 60, 0.1);
