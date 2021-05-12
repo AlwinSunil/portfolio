@@ -31,20 +31,19 @@ for (var i = 0; i < btns.length; i++) {
     });
 }
 
-/* Code for changing active 
-link on Scrolling */
+// Code for changing active link on Scrolling
 $(window).scroll(function () {
   var distance = $(window).scrollTop();
   $('.page-section').each(function (i) {
     if ($(this).position().top
-      <= distance + 40) {
+      <= distance + 200) {
       $('.nav-items a.active').removeClass('active');
       $('.nav-items a').eq(i).addClass('active');
     }
   });
 }).scroll();
 
-$('ul li a').click(function () {
+$('.nav-item a').click(function () {
   $(this).addClass('active');
   $('a.active').not(this).removeClass('active');
 });
@@ -55,7 +54,7 @@ footerLogo.onclick = function () {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
 
-//h4 Hero Component
+// h4 Hero Component
 var h4Width = document.getElementById("inner-wrapper").offsetWidth;
 var h4DivWidth = h4Width;
 document.getElementById("h4-hero").style.width = h4DivWidth + "px";
@@ -64,4 +63,12 @@ document.getElementById("h4-hero").style.width = h4DivWidth + "px";
 var nameWidth = document.getElementById("name-link").offsetWidth;
 var highlightWidth = nameWidth + (15 / 100) * nameWidth;
 document.getElementById("highlight").style.width = highlightWidth + "px";
-document.getElementById("highlight-footer").style.width = highlightWidth + "px";
+
+var windowWidth = window.screen.width;
+if (windowWidth > 700) {
+  var highlightWidthFooter = nameWidth + (-3 / 100) * nameWidth;
+  document.getElementById("highlight-footer").style.width = highlightWidthFooter + "px";
+} else {
+  var highlightWidthFooter = nameWidth + (15 / 100) * nameWidth;
+  document.getElementById("highlight-footer").style.width = highlightWidthFooter + "px";
+}
