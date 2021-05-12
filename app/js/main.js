@@ -59,7 +59,7 @@ var h4Width = document.getElementById("inner-wrapper").offsetWidth;
 var h4DivWidth = h4Width;
 document.getElementById("h4-hero").style.width = h4DivWidth + "px";
 
-// Hightlight Element
+// Highlight Element
 var nameWidth = document.getElementById("name-link").offsetWidth;
 var highlightWidth = nameWidth + (15 / 100) * nameWidth;
 document.getElementById("highlight").style.width = highlightWidth + "px";
