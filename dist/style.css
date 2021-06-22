@@ -339,9 +339,7 @@ img:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    background: rgba(22, 22, 22, 0.825);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
+    background-color: #222222;
   }
   .navbar {
     margin: auto;
@@ -556,7 +554,7 @@ img:hover {
   }
   .hero-content {
     padding: 0px;
-    padding-bottom: 1rem;
+    padding-bottom: 0px;
     margin-bottom: auto;
   }
   .hero-content p {
@@ -566,14 +564,10 @@ img:hover {
     text-align: left;
     color: #252b46;
     opacity: 90%;
-    padding-top: 0px;
+    padding: 0px;
     font-weight: 400;
     -webkit-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
-  }
-  .hero-content p:hover {
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
   }
   .btn-container {
     display: -ms-grid;
@@ -1206,10 +1200,6 @@ img:hover {
     font-weight: 400;
     -webkit-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
-  }
-  .hero-content p:hover {
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
   }
   .btn-container {
     display: -ms-grid;
